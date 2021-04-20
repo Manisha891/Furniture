@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.marignPart {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+}
+.storeName {
+  font-size: 37px;
+  font-family: IBM sans-serif;
+  color: #1a508b;
+  top: 8%;
+}
+h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 30px;
+}
+.quote {
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: Ballet;
+}
+.dropbtn {
+  background-color: #1a508b;
+  color: white;
+  float: left;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  min-width: 250px;
+  border-radius: 90px;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #99bbad;
+}
+#myInput {
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  min-width: 250px;
+  border-bottom: 1px solid #ddd;
+}
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
+.dropdown {
+  position: relative;
+  left: 690px;
+  top: -95px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 200px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
+.location {
+  font-size: 15px;
+  color: #1a508b;
+}
+.rightHeaderIcon {
+  position: absolute;
+  right: 0;
+}
+hr.divider {
+  width: 100%;
+}
+#Header p {
+  margin: 0;
+  padding: 0;
+}
+.topnavbar_items {
+  text-align: center;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding-right: 76px;
+  text-decoration: none;
+  color: grey;
+}
+
+li a:hover {}
